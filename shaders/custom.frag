@@ -10,6 +10,6 @@ uniform sampler2D image;
 
 out vec4 FragColor;
 
-void main() {
+void main() { //invert colors maybe
     FragColor = texture(image, texcoord);
 }
